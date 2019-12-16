@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <form>
+      <fieldset>
+        <legend>Registration</legend>
+        
+  Username<input type = "text" name="username"class="username"
+                  placeholder="Enter your  username">
+      
+        Status <select>
+ <option>Teacher</option>
+ <option>Student</option>
+  <option>Else</option>
+      </select>
+      
+      E-mail<input type = "text" name="email" class="email"
+                   placeholder="Enter your email">
+      <br>
+      Phone<input type="text" name="phone" class="phone"
+                  placeholder="999-999-9999">
+      
+      Website<input type"url" name="url" class="id"
+                    placeholder="https://exxample.com"
+                    pattern="https://. +" size="30"
+                    required>
+      
+      About<textarea name = "about" class="about"></textarea>
+      
+      Cites you visited
+        <select class="cities"> <option>London</option> <option>Montreal</option <option>New York</option>
+<option>Paris</option>
+      </select>
+      
+      Password<input type="password" name="password"                          class="password" placeholder="*******">
+      
+      Confirm Password<input type="password" name="password"                          class="password" placeholder="*******">
+      
+      
+      <input type="submit" name="register" class="register" 
+             value="Register">
+      
+      <input type="reset" name="clear" class="clear"
+             value="clear">
+   </form>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Search the Site</legend>
+    <form>
+      <input type="search" class="site-search" name="q">
+      <button>Search</button>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Opptions</legend>
+        
+        Choose a flavor:<input type="text" name="flavor"class="flavor">
+        </fieldset>
+      <br>
+      <fieldset>
+        <legend>Sex</legend>
+        <input type="radio" id="male" name="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="female">
+        <label for="female">Female</label>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Languages</legend>
+        
+        <input type="checkbox" name="french" class="french" 
+               not-checked>
+        <label for="french">I speak French</label>
+        <br>
+        <input type="checkbox" name="english" id="english" 
+               not-checked>
+        <label for="english">I speak English</label>
+        <br>
+        <input type="checkbox" name="spanish" id="spanish" 
+               not-checked>
+        <label for="spanish">I speak French</label>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Languages</legend>
+        File:<input type="text">
+        <br>
+        <input type="image" name="file" id="file"
+                     src="http://bmlabca.com/uxwid/form/images/upload.png" style="width:200px">
